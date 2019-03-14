@@ -11,8 +11,6 @@ import {actions} from './store.js'
 
 class AppAjax extends Component{
     postSignOut = () =>{
-        // localStorage.removeItem('is_login');
-        // localStorage.clear()
         this.props.postLogout();
         this.props.history.push("/");
     };

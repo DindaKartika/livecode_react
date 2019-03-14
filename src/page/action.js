@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./../css/bootstrap.min.css";
 import "./../css/main.css";
-import { Link } from 'react-router-dom';
 
 import axios from 'axios';
 import {Redirect} from 'react-router-dom';
@@ -9,7 +8,6 @@ import {Redirect} from 'react-router-dom';
 import "./../css/bootstrap.min.css";
 import "./../css/main.css";
 
-// import Search from './../component/search.js'
 import Films from './../component/films.js'
 
 import foto from './../img/action.jpg'
@@ -50,13 +48,8 @@ class Actions extends Component {
     
         const {listFilms, username, isiLogin} = this.state;
     
-    //     if(!this.props.is_login){
-    //       return <Redirect to={{pathname:"/signin"}}/>
-    //   }
-    //   else{
           return(
             <div className="blogs">
-                {/* <Search placeholder="Search..." doSearch= {e => this.handleInputChange(e)}/> */}
                 {listFilms.map((item, key) => {
                 if ((item.Category) === "action"){
                     return <Films key ={key} title={item.Title} posters={item.Poster} year={item.Year} synopsis={item.Synopsis}/>;
@@ -65,8 +58,7 @@ class Actions extends Component {
             </div>
           );
         }
-        
-    //   }
+
 }
 
 export default Actions;

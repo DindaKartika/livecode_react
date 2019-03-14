@@ -1,5 +1,4 @@
 import createStore from 'unistore'
-import {Provider, connect} from 'unistore/react'
 import axios from 'axios'
 
 const initialStates = {
@@ -20,7 +19,6 @@ export const actions = store => ({
     },
     postLogout: state =>{
         return {is_login: false};
-        // console.log(is_login);
     },
     postLogin: async state =>{
         const data = {username: state.username, password: state.password};

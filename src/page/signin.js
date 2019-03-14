@@ -8,10 +8,6 @@ import "./../css/bootstrap.min.css";
 import "./../css/main.css";
 
 class SignIn extends Component {
-    // state = {username:"", password:""};
-    // changeInput = e =>{
-    //     this.setState({[e.target.name]: e.target.value});
-    // };
     postSignin = () =>{
         this.props.postLogin()
             .then(() =>{

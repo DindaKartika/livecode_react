@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import "./../css/bootstrap.min.css";
 import "./../css/main.css";
 
-// import facebook from "./../ico/ico-facebook@2x.png";
-// import twitter from "./../ico/ico-twitter@2x.png";
-// import instagram from "./../ico/ico-instagram@2x.png";
-
 class Footer extends Component {
   render() {
     return (

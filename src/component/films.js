@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import "./../css/bootstrap.min.css";
 import "./../css/main.css";
 
-import foto1 from "./../img/romance.jpg";
-
 const Films = props => {
     return(
         <div className="isiblogs">
