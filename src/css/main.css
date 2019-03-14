@@ -1,0 +1,281 @@
+/* Ini Style Header */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header{
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    /* height: 95px; */
+}
+
+
+.logo-head{
+    width:133px;
+    height:66px;
+    margin: 16px auto 0 106px;
+}
+
+.nav{
+    float: right;
+    margin:42px 100px 33px auto;
+}
+
+
+
+.nav-link{
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #19345E;
+    margin: 0 5px;
+    padding: 0 1rem;
+}
+
+.active{
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F47522
+}
+
+.nav-link:hover{
+    /* font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 700; */
+    color: red;
+}
+
+/* Styling Home */
+
+img.image1 {
+    width: 200px;
+    background: white;
+    margin: 16.5px;
+    max-width: 100%;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.gallery-image{
+    width: 45.47px;
+    height: 41.42px;
+    margin: 62px 0 0 0;
+}
+
+.image-home{
+    height: 350px;
+}
+
+.poster-home{
+    border: 1px solid grey;
+    height: 400px;
+    text-align: center
+}
+
+.link-film{
+    margin: auto auto auto 10px;
+}
+
+.border-bawah {
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 68px 0 0 21.5px;
+}
+
+hr{
+    border: 1px solid darkblue;
+}
+
+.kump-gambar{
+    margin: 37px 0 246px 0;
+}
+
+
+/* Style Blog */
+
+.searchButton{
+    margin-top: 8%;
+    width: 30px;
+    height: 30px;
+}
+
+.searchButton img{
+    width: 90%;
+    height: 80%;
+    margin: 10% 5%;
+}
+
+.blogs{
+    margin: 0 5%;
+}
+
+.searchForm{
+    margin: 10px 4%;
+}
+
+.titleTopArticle{
+    text-align: center;
+    /* background-color: lightgray; */
+    border-bottom: 2px solid #19345E;
+    font-weight: bold;
+    color: #19345E;
+}
+
+.isi-top-article{
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.topArticle{
+    padding: 10px 5%;
+    margin: 5px 8px;
+    background-color: #f7f7f7;
+    border: 2px solid #19345E;
+}
+
+.sidebar{
+    margin-top:50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 30px;
+}
+
+.isiBlog{
+    font-family: 'Muli', sans-serif;
+    padding: 70px 2%;
+}
+
+.isiBlog img{
+    width: 270px;
+}
+
+.isiBlog span{
+    font-size: 14px;
+}
+
+.isiblogs a{
+    color: black;
+}
+
+.isiblogs a :hover{
+    color: black;
+}
+
+.topsection{
+    text-align: center;
+}
+
+img.poster-films{
+    width: 170px;
+    vertical-align: top;
+}
+
+/* Styling Sign In */
+
+.signin{
+    margin : 50px 10%;
+    padding : 50px 20%;
+    border : 1px solid darkblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.signin input{
+    width: 100%;
+    margin: 5px;
+}
+
+.signin button{
+    margin: 10px
+}
+
+/* Styling Not Match */
+.notfound{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+/* Styling Profile */
+
+.content{
+    margin : 50px 10%;
+    padding : 50px 20%;
+    border : 1px solid darkblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.content p{
+    text-align: left
+}
+
+img.gambar-avatar{
+    width: 100px;
+}
+
+/* Ini Style Footer */
+
+footer{
+    background-color: #19345E;
+    border: 1px solid #707070;
+}
+
+.logo-foot{
+    width: 133px; 
+    height: 66px;
+    margin: 44px 0 0 106px;
+}
+
+.copy-right{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 20px 0 62.5px 106px;
+}
+
+.media-social{
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: left; */
+    margin: 43.7px 107px 49.5px 0;
+}
+
+#label-sosmed{
+    font-size: 17px;
+    color: #FFFFFF;
+    margin: 6px 0;
+    font-weight: 700;
+}
+
+
+.pict-sos{
+    text-align: center;
+    width: auto;
+    height: 10px;
+    margin: 6px 0;
+}
+
+/* label .content-sos{
+    margin-bottom: 0;
+} */
+
+.content-sos{
+    padding-top: 6px;
+    font-size: 12px;
+    color: #F7F7F7;
+    text-align: left !important;
+}
+
+.content-sos Link{
+    color: #F7F7F7;
+    text-decoration: none;
+    text-align: left !important;
+}
